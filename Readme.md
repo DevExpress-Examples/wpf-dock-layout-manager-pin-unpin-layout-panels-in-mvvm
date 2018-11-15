@@ -1,3 +1,20 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [GlyphHelper.cs](./CS/Helpers/GlyphHelper.cs) (VB: [GlyphHelper.vb](./VB/Helpers/GlyphHelper.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [AutoHideView.xaml](./CS/View/AutoHideView.xaml) (VB: [AutoHideView.xaml](./VB/View/AutoHideView.xaml))
+* [AutoHideView.xaml.cs](./CS/View/AutoHideView.xaml.cs) (VB: [AutoHideView.xaml](./VB/View/AutoHideView.xaml))
+* [DocumentView.xaml](./CS/View/DocumentView.xaml) (VB: [DocumentView.xaml.vb](./VB/View/DocumentView.xaml.vb))
+* [DocumentView.xaml.cs](./CS/View/DocumentView.xaml.cs) (VB: [DocumentView.xaml.vb](./VB/View/DocumentView.xaml.vb))
+* [PanelView.xaml](./CS/View/PanelView.xaml) (VB: [PanelView.xaml](./VB/View/PanelView.xaml))
+* [PanelView.xaml.cs](./CS/View/PanelView.xaml.cs) (VB: [PanelView.xaml](./VB/View/PanelView.xaml))
+* [AutoHideViewModel.cs](./CS/ViewModel/AutoHideViewModel.cs) (VB: [AutoHideViewModel.vb](./VB/ViewModel/AutoHideViewModel.vb))
+* [DocumentViewModel.cs](./CS/ViewModel/DocumentViewModel.cs) (VB: [DocumentViewModel.vb](./VB/ViewModel/DocumentViewModel.vb))
+* [MainViewModel.cs](./CS/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/ViewModel/MainViewModel.vb))
+* [PanelViewModel.cs](./CS/ViewModel/PanelViewModel.cs) (VB: [PanelViewModel.vb](./VB/ViewModel/PanelViewModel.vb))
+<!-- default file list end -->
 # How to pin/unpin layout panels in MVVM
 
 
