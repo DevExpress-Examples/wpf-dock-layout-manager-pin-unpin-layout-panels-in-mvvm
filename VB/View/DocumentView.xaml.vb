@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -19,6 +18,7 @@ Namespace WpfApplication.View
 	''' </summary>
 	Partial Public Class DocumentView
 		Inherits UserControl
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub

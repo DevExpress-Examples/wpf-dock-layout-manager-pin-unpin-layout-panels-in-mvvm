@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -21,6 +20,7 @@ Namespace WpfApplication
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			vm = TryCast(mainGrid.Resources("viewModel"), MainViewModel)
@@ -31,13 +31,13 @@ Namespace WpfApplication
 
 		Private Sub Button_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
 			vm.ChildViews.Remove(ahvm)
-            ahvm.MyTargetName = "DockPanels"
+			(ahvm).MyTargetName = "DockPanels"
 			vm.ChildViews.Add(ahvm)
 		End Sub
 
 		Private Sub Button_Click_1(ByVal sender As Object, ByVal e As RoutedEventArgs)
 			vm.ChildViews.Remove(ahvm)
-            ahvm.MyTargetName = "auotHideGroup"
+			(ahvm).MyTargetName = "auotHideGroup"
 			vm.ChildViews.Add(ahvm)
 
 		End Sub
