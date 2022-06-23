@@ -1,9 +1,16 @@
 <!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128643739/21.1.5%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4069)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Dock Layout Manager - Pin/Unpin LayoutPanels in MVVM
+
+This example pins/unpins layout panels in the MVVM application.
+
+<img src="https://user-images.githubusercontent.com/12169834/175362861-ac945313-842b-458e-8c5e-1f722597803f.png" width=850px/>
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [GlyphHelper.cs](./CS/Helpers/GlyphHelper.cs) (VB: [GlyphHelper.vb](./VB/Helpers/GlyphHelper.vb))
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
@@ -19,14 +26,8 @@
 * [MainViewModel.cs](./CS/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/ViewModel/MainViewModel.vb))
 * [PanelViewModel.cs](./CS/ViewModel/PanelViewModel.cs) (VB: [PanelViewModel.vb](./VB/ViewModel/PanelViewModel.vb))
 <!-- default file list end -->
-# How to pin/unpin layout panels in MVVM
-
-
-<p>It is necessary to remove the layout panel from the ItemsSource, change the panel TargetName property, and add the panel to the ItemsSource. The attached sample illustrates this approach.  These samples will be helpful:</p><p><a href="https://www.devexpress.com/Support/Center/p/E2890">How to pin/unpin a layout panel</a><br />
-<a href="https://www.devexpress.com/Support/Center/p/E20026">How to use the IMVVMDockingProperties interface in an MVVM application</a><br />
-</p><br />
-
-
-<br/>
-
-
+  
+ ## More Examples
+ 
+ - [WPF Dock Layout Manager - Pin/Unpin a LayoutPanel](https://github.com/DevExpress-Examples/wpf-dock-layout-manager-pin-unpin-a-layout-panel)
+ - [WPF Dock Layout Manager - Use IMVVMDockingProperties Interface to Build Dock UI with the MVVM Pattern](https://github.com/DevExpress-Examples/wpf-docklayoutmanager-use-imvvmdockingproperties-to-build-dock-ui-with-mvvm)
