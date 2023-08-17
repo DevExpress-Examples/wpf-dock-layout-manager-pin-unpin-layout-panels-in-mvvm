@@ -3,18 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WpfApplication"
         Title="MainWindow" Height="359" Width="794" xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
     <Grid x:Name="mainGrid">
-        <Grid.Resources>
-            <local:MainViewModel x:Key="viewModel"></local:MainViewModel>
-        </Grid.Resources>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="20"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Content="Pin Messages" Click="Button_Click" Grid.Row="0"/>
-        <Button Content="UnPin Messages" Click="Button_Click_1" Grid.Row="1"/>
-        <dxdo:DockLayoutManager Grid.Row="2" Name="dockLayoutManager1" DataContext="{StaticResource viewModel}" ItemsSource="{Binding ChildViews}">
+        <Button Content="Pin Messages" Command="{Binding PinMessagesCommand}" Grid.Row="0"/>
+        <Button Content="UnPin Messages" Command="{Binding UnpinMessagesCommand}" Grid.Row="1"/>
+        <dxdo:DockLayoutManager Grid.Row="2" Name="dockLayoutManager1"  ItemsSource="{Binding ChildViews}">
             <dxdo:DockLayoutManager.LayoutRoot>
                 <dxdo:LayoutGroup Caption="LayoutRoot" >
                     <dxdo:DocumentGroup x:Name="DocumentsGroup">
