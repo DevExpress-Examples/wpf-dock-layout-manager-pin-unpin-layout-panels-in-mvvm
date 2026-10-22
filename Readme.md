@@ -10,6 +10,8 @@ This example pins/unpins layout panels in the MVVM application.
 
 <img src="https://user-images.githubusercontent.com/12169834/175362861-ac945313-842b-458e-8c5e-1f722597803f.png" width=850px/>
 
+<br>
+
 <!-- default file list -->
 ## Files to Look At
 
